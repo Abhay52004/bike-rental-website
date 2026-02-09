@@ -1,0 +1,118 @@
+.page-header {
+  height: 200px;
+  background: #000; /* or background image if you have one */
+}
+
+.header-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.header-right h2,
+.header-right p {
+  color: #fff;
+}
+#home{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+  .page-header {
+    height: auto;
+  }
+
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 30px 0;
+  }
+
+  .header-right {
+    text-align: center;
+  }
+}
+.tel {
+  padding: 50px 20px;
+}
+
+.tel i {
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.tel p {
+  margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+  .tel .border-start,
+  .tel .border-end {
+    border: none !important;
+  }
+
+  .tel .col-md-4 {
+    margin-bottom: 30px;
+  }
+}
+
+.map {
+  margin-top: 30px;
+}
+.dealer-cta {
+  background: #00b0f0;
+  padding: 40px 60px;
+}
+
+.dealer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dealer-text h2 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.dealer-text p {
+  color: #eaf6ff;
+}
+
+.dealer-btn {
+  background: #8fd01e;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+  .dealer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .dealer-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}

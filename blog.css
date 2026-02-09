@@ -1,0 +1,219 @@
+.page-header {
+    height: 200px;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.header-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 200px;
+    width: auto;
+    margin-top: 4px;
+
+}
+
+.header-right h2 {
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.header-right p {
+    color: #ccc;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .page-header {
+        height: auto;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+        gap: 15px;
+    }
+
+    .header-logo {
+        height: 45px;
+    }
+
+    .header-right {
+        text-align: center;
+    }
+}
+
+
+
+
+#home {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.oneway-banner {
+    background-image: url("images/oneway-tour.jpg");
+    /* your bike image */
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    position: relative;
+}
+
+.oneway-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    height: 100%;
+}
+
+.oneway-content {
+    height: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oneway-text h2 {
+    color: #39ff14;
+    /* neon green */
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.oneway-text p {
+    color: #fff;
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.oneway-btn {
+    background: #ff6a2a;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .oneway-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    .oneway-text h2 {
+        font-size: 26px;
+    }
+
+    .oneway-btn {
+        width: 100%;
+        max-width: 260px;
+    }
+}
+.top-stories {
+  margin-top: 40px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* HORIZONTAL LAYOUT */
+.stories-row {
+  display: flex;
+  gap: 20px;
+}
+
+/* CARD */
+.story-card {
+  position: relative;
+  flex: 1;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* IMAGE FIX */
+.story-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* KEY FIX */
+  object-position: center;
+  display: block;
+}
+
+/* OVERLAY */
+.story-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.story-overlay h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+
+@media (max-width: 768px) {
+  .stories-row {
+    flex-direction: column;
+  }
+
+  .story-card {
+    height: 180px;
+  }
+}
+
+#feed {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+
+.feedback-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+    #feed h3 {
+        font-size: 22px;
+    }
+
+    .feedback-form {
+        padding: 0 10px;
+    }
+
+    .feedback-form button {
+        width: 100%;
+    }
+}

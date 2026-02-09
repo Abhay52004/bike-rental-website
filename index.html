@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo2.png" alt="Logo" height="40">
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+
+                    <!-- Normal links -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacts.html">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Prices">Pricing</a>
+                    </li>
+
+                    <!-- Profile dropdown -->
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link p-0" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="images/profile.png" class="profile-logo" alt="Profile">
+                        </a>
+
+                        <div class="dropdown-menu profile-dropdown">
+                            <div class="row">
+
+                                <div class="col-6 dropdown-col">
+                                    <h6>Your Rentals</h6>
+                                    <a class="dropdown-item" href="#">Active Rentals</a>
+                                    <a class="dropdown-item" href="#">Upcoming Bookings</a>
+                                    <a class="dropdown-item" href="#">Past Trips</a>
+                                    <a class="dropdown-item" href="#">Extend Rental</a>
+                                </div>
+
+                                <div class="col-6 dropdown-col">
+                                    <h6>Your Account</h6>
+                                    <a class="dropdown-item" href="#">Profile</a>
+                                    <a class="dropdown-item" href="#">Payments</a>
+                                    <a class="dropdown-item" href="#">Support</a>
+                                    <a class="dropdown-item text-danger" href="#">Logout</a>
+                                    <a class="dropdown-item text-danger" href="login.html">Login</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-content text-center">
+                <img src="/images/logo2.png" alt="RenTrip Logo" class="hero-logo">
+                <h1>RENTALS, REDEFINED</h1>
+                <p>Rent from India's largest fleet of vehicles. Trusted by millions.</p>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <form class="row g-3 align-items-end">
+
+                <div class="col-md-2">
+                    <label class="form-label">City</label>
+                    <select class="form-select">
+                        <option>-- select --</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label">Book at</label>
+                    <select class="form-select">
+                        <option>₹ Daily</option>
+                        <option>₹ Hourly</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label">Pick Up Date</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label">Pick Time</label>
+                    <select class="form-select">
+                        <option>-- select --</option>
+                        <option>09:00 AM</option>
+                        <option>10:00 AM</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label">Drop Off Date</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label">Drop Time</label>
+                    <select class="form-select">
+                        <option>-- select --</option>
+                        <option>06:00 PM</option>
+                        <option>07:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2 d-flex align-items-end">
+  <button class="btn btn-success w-100">
+    Find Car
+  </button>
+</div>
+
+            </form>
+        </div>
+
+    </section>
+    <br><br><br><br>
+    
+    <section id="seventy">
+        <div class="one">
+            <h2>Choose Your Perfect Ride</h2>
+            <h4>Flexible rentals for every journey - from daily commutes to weekend adventures</h4>
+
+        </div>
+
+    </section>
+
+<section class="ten" id="Prices">
+    <div class="row g-4">
+
+  <!-- Card 1 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="images/scooty.jpg" class="card-img-top" alt="Premium Bikes">
+
+      <div class="card-body">
+        <h5 class="card-title">Premium Scooty</h5>
+
+        <p class="mb-2">
+          	&#11088;	&#11088;	&#11088;	&#11088;	&#11088; <strong>4.8</strong> (80,000+ rentals)
+        </p>
+
+        <ul class="list-unstyled">
+          <li>✔ Affordable Prices</li>
+          <li>✔ 24/7 Roadside Assistance</li>
+          <li>✔ Complimentary Helmet</li>
+          <li>✔ Low Deposits</li>
+        </ul>
+
+        <p><strong>From - Rs. 399/day</strong></p>
+      </div>
+
+      <div class="card-footer bg-white border-0">
+        <a href="#" class="btn btn-primary w-100">Rent Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="images/bikeRR.jpg" class="card-img-top" alt="Cars & SUVs">
+
+      <div class="card-body">
+        <h5 class="card-title">Cars & SUVs</h5>
+
+        <p class="mb-2">
+          	&#11088;	&#11088;	&#11088;	&#11088;	&#11088; <strong>4.9</strong> (5,856 rentals)
+        </p>
+
+        <ul class="list-unstyled">
+          <li>✔ Premium models available</li>
+          <li>✔ True Mileage Options</li>
+          <li>✔ Economy, Hatchback, Sedans & SUVs</li>
+          <li>✔ Best in Condition</li>
+        </ul>
+
+        <p><strong>From - Rs. 499/day</strong></p>
+      </div>
+
+      <div class="card-footer bg-white border-0">
+        <a href="#" class="btn btn-primary w-100">Rent Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="images/ebike.jpg" class="card-img-top" alt="E-Bikes">
+
+      <div class="card-body">
+        <h5 class="card-title">E-Bikes & Bicycles</h5>
+
+        <p class="mb-2">
+          	&#11088;	&#11088;	&#11088;	&#11088;	&#11088; <strong>4.7</strong> (1,122 rentals)
+        </p>
+
+        <ul class="list-unstyled">
+          <li>✔ Electric & manual options</li>
+          <li>✔ Lock & safety gear included</li>
+          <li>✔ City & mountain bikes</li>
+          <li>✔ Monthly Subscription Only</li>
+        </ul>
+
+        <p><strong>From - Rs. 499/day</strong></p>
+      </div>
+
+      <div class="card-footer bg-white border-0">
+        <a href="#" class="btn btn-primary w-100">Rent Now</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section><br>
+<section class="eleven">
+
+    
+  <div class="container text-center">
+
+    <h2 class="section-title">Why Choose RenTrip</h2>
+
+    <div class="row g-5 mt-4">
+
+      <div class="col-md-4">
+        <img src="images/rupee.jpg" class="feature-icon" alt="">
+        <h5>Affordable Prices</h5>
+        <p>Guaranteed Genuine Prices</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/navigation.jpg" class="feature-icon" alt="">
+        <h5>Multiple Locations</h5>
+        <p>Choose a vehicle conveniently located near you</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/secure-payment.jpg" class="feature-icon" alt="">
+        <h5>Secure Payments</h5>
+        <p>Our payment partners are industry leaders</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/traffic.jpg" class="feature-icon" alt="">
+        <h5>Wide Range</h5>
+        <p>Choose from a wide range of self-drive vehicles</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/person.jpg" class="feature-icon" alt="">
+        <h5>Verified Dealers</h5>
+        <p>Every single dealer is committed to quality service</p>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/cash.jpg" class="feature-icon" alt="">
+        <h5>100% Moneyback*</h5>
+        <p>Not happy with service? Take your money back</p>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+<br>
+<section class="how-it-works">
+  <div class="container text-center">
+
+    <h2 class="section-title">How it Works?</h2>
+
+    <div class="row mt-5 position-relative">
+
+      <!-- Step 1 -->
+      <div class="col-md-3 step">
+        <img src="images/key.jpg" class="step-icon" alt="">
+        <h5>Select Rental Product</h5>
+        <p>You can search & select product from our wide range.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-md-3 step">
+        <img src="images/select-to-cart.jpg" class="step-icon" alt="">
+        <h5>Add to Cart</h5>
+        <p>Easily add multiple product in your cart or direct book.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-md-3 step">
+        <img src="images/pick-up.jpg" class="step-icon" alt="">
+        <h5>Pick Your Product</h5>
+        <p>Find the pickup location and pick a product.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="col-md-3 step">
+        <img src="images/ride-your-bike.jpg" class="step-icon" alt="">
+        <h5>Ride Anywhere</h5>
+        <p>We do not have kms limit.</p>
+      </div>
+
+      <!-- Dotted line -->
+      <div class="step-line"></div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>

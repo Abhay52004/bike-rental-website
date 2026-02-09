@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+}
+
+.login-wrapper {
+  height: 100vh;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 360px;
+}
+
+.btn-google {
+  background: #db4437;
+  color: #fff;
+  border: none;
+}
+
+.btn-google:hover {
+  background: #c1351d;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #aaa;
+}
+
+.forgot {
+  color: #f4a100;
+  text-decoration: none;
+}
+
+.info-panel {
+  background: linear-gradient(135deg, #041c32, #04293a);
+  color: #fff;
+  padding: 40px;
+}
+
+.info-content {
+  max-width: 400px;
+}
+
+.info-logo {
+  height: 90px;
+  margin-bottom: 70px;
+}
+
+.info-content h2 {
+  margin-bottom: 20px;
+}
+
+.info-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.info-content ul li {
+  margin-bottom: 10px;
+}
+
+.bike-img {
+  width: 100%;
+  margin-top: 6px;
+}
